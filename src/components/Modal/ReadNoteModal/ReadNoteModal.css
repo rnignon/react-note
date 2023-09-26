@@ -1,0 +1,25 @@
+.edit__read__note {
+  width: 80vw;
+}
+
+.edit__read__date {
+  color: dimgray;
+  margin: 5px;
+}
+
+.edit__read__tag-container {
+  display: flex;
+}
+
+.edit__read__tag {
+  margin: 0.2em;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 2px 4px;
+}
+
+.edit__read__content {
+  margin: 1em 0;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 1em 2em;
+}

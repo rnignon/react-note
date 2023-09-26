@@ -1,0 +1,35 @@
+.edit__note {
+  width: 80vw;
+}
+
+.edit__note__form {
+  margin: 1em 0;
+}
+
+.edit__note__form > input {
+  width: 100%;
+  padding: 0.5em;
+  border: 1px solid silver;
+}
+
+.edit__note__option {
+  margin: 1em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.edit__note__submit {
+  font-size: 1.1em;
+  padding: 0.6em 1em;
+  background: lemonchiffon;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
+  float: right;
+}
+
+.edit__note__submit:hover {
+  cursor: pointer;
+  background-color: rgb(255, 245, 155);
+  transition: 300ms;
+}

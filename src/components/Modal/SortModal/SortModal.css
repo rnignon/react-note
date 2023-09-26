@@ -1,0 +1,30 @@
+.edit__sort__container {
+  float: right;
+  position: absolute;
+  left: 100%;
+  top: 7em;
+  transform: translateX(-102%);
+  width: 15em;
+  padding: 1.4em;
+  overflow: auto;
+
+  box-shadow: 0px 0px 30px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  background-color: white;
+}
+
+.edit__sort__title {
+  font-size: 1.3em;
+  margin-bottom: 1em;
+}
+
+.edit__sort__priority__container > *,
+.edit__sort__date__container > * {
+  margin-bottom: 6px;
+}
+
+.edit__sort__priority__container label,
+.edit__sort__date__container label {
+  font-size: 1.1em;
+  margin-left: 0.5em;
+}

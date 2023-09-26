@@ -1,0 +1,96 @@
+.content__container {
+  display: flex;
+  flex-direction: column;
+
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.1);
+
+  height: 15em;
+
+  padding: 1em;
+  margin: 0 10% 5% 0;
+
+  overflow: hidden;
+}
+
+.content__container:hover {
+  scale: 1.03;
+  box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.1);
+  transition: 300ms;
+  cursor: pointer;
+}
+
+.content__header {
+  display: flex;
+  align-items: center;
+}
+
+.content__title {
+  flex: 1;
+
+  font-weight: 600;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.content__priority {
+  font-size: 0.7em;
+  margin-right: 0.3em;
+}
+
+.content__pinned__true {
+  color: crimson;
+}
+
+.content__detail {
+  flex: 1;
+  margin: 1em 0;
+  font-size: 0.9em;
+  overflow-y: hidden;
+}
+
+.content__tag {
+  display: flex;
+}
+
+.content__tag > p {
+  font-size: 0.7em;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  padding: 0.2em 0.4em;
+  margin-right: 0.5em;
+}
+
+.content__info {
+  margin-top: 1em;
+  color: rgba(0, 0, 0, 0.5);
+
+  display: flex;
+  align-items: center;
+}
+
+.content__date {
+  flex: 1;
+  font-size: 0.7em;
+}
+
+.content__buttons > * {
+  margin-left: 0.5em;
+  background-color: transparent;
+  border: none;
+}
+
+.content__buttons > * > * {
+  font-size: 1.5em;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.content__buttons > * :hover > * {
+  color: black;
+  transition: 300ms;
+}
+
+.content__buttons > *:hover {
+  cursor: pointer;
+}
